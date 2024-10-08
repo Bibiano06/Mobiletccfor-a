@@ -5,8 +5,6 @@ import android.os.Bundle
 
 
 
-
-
 class FormCadastro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,7 +12,6 @@ class FormCadastro : AppCompatActivity() {
 
         supportActionBar
 
-        
 
     }
 }
