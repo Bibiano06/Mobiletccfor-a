@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".FormLogin">
-
-
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/leao"
@@ -36,12 +34,12 @@
     <EditText
         android:id="@+id/edit_email"
         style="@style/Edit_Text"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:drawableRight="@drawable/ic_email"
         android:hint="Insira o E-mail"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/containerComponents" />
 
