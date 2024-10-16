@@ -26,4 +26,9 @@ public class conexao {
      return conn;
 
     }
+
+    public static Connection conectar(TesteConexaoBD testeConexaoBD) {
+        return null;
+    }
 }
+
