@@ -12,7 +12,7 @@
         android:background="@drawable/background"
         tools:context=".FormHome"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp">
+        tools:layout_editor_absoluteY="61dp">
 
         <ImageView
             android:id="@+id/leao"
@@ -34,10 +34,10 @@
             android:layout_marginBottom="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.342"
+            app:layout_constraintHorizontal_bias="0.41"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/leao"
-            app:layout_constraintVertical_bias="0.744"
+            app:layout_constraintVertical_bias="0.699"
             app:srcCompat="@drawable/edit_text" />
 
         <ImageView
@@ -107,17 +107,25 @@
             android:id="@+id/imageView7"
             android:layout_width="108dp"
             android:layout_height="93dp"
-            tools:layout_editor_absoluteX="151dp"
-            tools:layout_editor_absoluteY="152dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="111dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/leao"
             tools:srcCompat="@tools:sample/avatars" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="128dp"
             android:layout_height="59dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="86dp"
             android:backgroundTint="@color/trasparente"
-            android:textSize="15dp"
             android:text="Home"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/leao"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
