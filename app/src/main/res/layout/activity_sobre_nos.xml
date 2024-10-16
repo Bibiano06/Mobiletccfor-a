@@ -19,77 +19,117 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="37dp"
         android:text="Sobre Nós"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="100dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leao" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="97dp"
         android:layout_height="58dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="119dp"
         android:backgroundTint="@color/trasparente"
         android:text="Home"
         android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/leao"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/leao"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/acad"
-        android:layout_width="144dp"
-        android:layout_height="107dp"
+        android:layout_width="158dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="81dp"
         android:src="@drawable/acad"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="189dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
-        android:layout_width="270dp"
-        android:layout_height="163dp"
-        android:text="Na Energia e Força, nossa missão é transformar vidas por meio da atividade física e do bem-estar. Oferecemos um ambiente inclusivo e motivador, com treinos personalizados e uma abordagem holística para saúde e qualidade de vida. Nosso objetivo é ajudar cada cliente a superar seus limites, adotando hábitos saudáveis que promovam um corpo e mente equilibrados. Seja você iniciante ou atleta, estamos aqui para guiá-lo em sua jornada de transformação física e mental. Junte-se a nós para viver uma experiência fitness única e elevar sua saúde a um novo patamar."
+        android:id="@+id/textView9"
+        android:layout_width="236dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="58dp"
+        android:text="Na Energia e Força, nossa missão é transformar vidas por meio da atividade física e do bem-estar. Oferecemos um ambiente inclusivo e motivador, com treinos personalizados e uma abordagem holística para saúde e qualidade de vida. Nosso objetivo é ajudar cada cliente a superar seus limites, adotando hábitos saudáveis que promovam um corpo e mente equilibrados."
         android:textColor="@color/white"
         android:textSize="12dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="168dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/acad"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <ImageView
         android:id="@+id/boxer"
-        android:layout_width="166dp"
-        android:layout_height="114dp"
+        android:layout_width="169dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="10dp"
         android:src="@drawable/boxer"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="380dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
-        android:layout_width="247dp"
-        android:layout_height="148dp"
-        android:text="Visualizamos a Energia e Força como referência em estilo de vida saudável, onde cada pessoa encontra o suporte necessário para alcançar suas metas fitness e de bem-estar. Queremos ser reconhecidos como líderes na criação de programas inovadores que combinam treino, nutrição e equilíbrio mental. Nossa visão é criar uma comunidade forte e ativa, onde todos sintam-se encorajados a viver com mais saúde, energia e autoestima, promovendo uma vida equilibrada e com propósito."
+        android:id="@+id/textView8"
+        android:layout_width="226dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="37dp"
+        android:text="Visualizamos a Energia e Força como referência em estilo de vida saudável, onde cada pessoa encontra o suporte necessário para alcançar suas metas fitness e de bem-estar. Queremos ser reconhecidos como líderes na criação de programas inovadores que combinam treino, nutrição e equilíbrio mental."
         android:textColor="@color/white"
         android:textSize="12dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="363dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/acad"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/leao" />
 
     <ImageView
         android:id="@id/crossfit"
         android:layout_width="161dp"
         android:layout_height="122dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="4dp"
         android:src="@drawable/crossfit"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="566dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
-        android:layout_width="247dp"
-        android:layout_height="148dp"
-        android:text="Compromisso com resultados: Nossa prioridade é ajudar nossos clientes a alcançar seus objetivos, oferecendo planos de treino e acompanhamento individualizado. Inclusividade e comunidade: Criamos um ambiente onde todos são bem-vindos, independentemente do nível de experiência ou condicionamento físico. Excelência em saúde e bem-estar: Priorizamos a saúde integral, com foco em equilíbrio entre corpo e mente. Ética e transparência: Mantemos um relacionamento claro e honesto com nossos clientes, parceiros e equipe, sempre prezando pela qualidade dos serviços prestados."
+        android:id="@+id/textView6"
+        android:layout_width="241dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginBottom="35dp"
+        android:text="Compromisso com resultados: Nossa prioridade é ajudar nossos clientes a alcançar seus objetivos, oferecendo planos de treino e acompanhamento individualizado. Inclusividade e comunidade: Criamos um ambiente onde todos são bem-vindos, independentemente do nível de experiência ou condicionamento físico. Excelência em saúde e bem-estar."
         android:textColor="@color/white"
         android:textSize="12dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="554dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/acad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
