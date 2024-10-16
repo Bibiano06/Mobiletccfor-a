@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/Bancoteste"
-        android:layout_width="73dp"
-        android:layout_height="35dp"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
         android:layout_marginStart="176dp"
         android:layout_marginTop="263dp"
         android:text="ConexaoBanco"
