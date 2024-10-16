@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -107,8 +108,18 @@
             android:layout_width="108dp"
             android:layout_height="93dp"
             tools:layout_editor_absoluteX="151dp"
-            tools:layout_editor_absoluteY="139dp"
+            tools:layout_editor_absoluteY="152dp"
             tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="128dp"
+            android:layout_height="59dp"
+            android:backgroundTint="@color/trasparente"
+            android:textSize="15dp"
+            android:text="Home"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

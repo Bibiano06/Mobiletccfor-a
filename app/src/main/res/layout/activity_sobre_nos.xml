@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SobreNos">
+
+    <ImageView
+        android:id="@+id/leao"
+        android:layout_width="125dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/leao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre Nós"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="97dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/trasparente"
+        android:text="Home"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/acad"
+        android:layout_width="144dp"
+        android:layout_height="107dp"
+        android:src="@drawable/acad"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="163dp"
+        android:text="Na Energia e Força, nossa missão é transformar vidas por meio da atividade física e do bem-estar. Oferecemos um ambiente inclusivo e motivador, com treinos personalizados e uma abordagem holística para saúde e qualidade de vida. Nosso objetivo é ajudar cada cliente a superar seus limites, adotando hábitos saudáveis que promovam um corpo e mente equilibrados. Seja você iniciante ou atleta, estamos aqui para guiá-lo em sua jornada de transformação física e mental. Junte-se a nós para viver uma experiência fitness única e elevar sua saúde a um novo patamar."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <ImageView
+        android:id="@+id/boxer"
+        android:layout_width="166dp"
+        android:layout_height="114dp"
+        android:src="@drawable/boxer"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="148dp"
+        android:text="Visualizamos a Energia e Força como referência em estilo de vida saudável, onde cada pessoa encontra o suporte necessário para alcançar suas metas fitness e de bem-estar. Queremos ser reconhecidos como líderes na criação de programas inovadores que combinam treino, nutrição e equilíbrio mental. Nossa visão é criar uma comunidade forte e ativa, onde todos sintam-se encorajados a viver com mais saúde, energia e autoestima, promovendo uma vida equilibrada e com propósito."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <ImageView
+        android:id="@id/crossfit"
+        android:layout_width="161dp"
+        android:layout_height="122dp"
+        android:src="@drawable/crossfit"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="148dp"
+        android:text="Compromisso com resultados: Nossa prioridade é ajudar nossos clientes a alcançar seus objetivos, oferecendo planos de treino e acompanhamento individualizado. Inclusividade e comunidade: Criamos um ambiente onde todos são bem-vindos, independentemente do nível de experiência ou condicionamento físico. Excelência em saúde e bem-estar: Priorizamos a saúde integral, com foco em equilíbrio entre corpo e mente. Ética e transparência: Mantemos um relacionamento claro e honesto com nossos clientes, parceiros e equipe, sempre prezando pela qualidade dos serviços prestados."
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
