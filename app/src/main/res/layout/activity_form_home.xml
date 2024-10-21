@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@id/leao" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_home"
         android:layout_width="138dp"
         android:layout_height="54dp"
         android:layout_marginStart="80dp"
@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@id/button"
+        android:id="@id/btn_home"
         android:layout_width="138dp"
         android:layout_height="54dp"
         android:layout_marginBottom="138dp"
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button_perfil"
+        android:id="@+id/btn_perfil"
         android:layout_width="444dp"
         android:layout_height="150dp"
         android:layout_marginTop="28dp"
@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_energia_forca" />
 
     <Button
-        android:id="@+id/button_modalidades"
+        android:id="@+id/btn_modalidades"
         android:layout_width="444dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
@@ -82,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_perfil" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_perfil" />
 
     <ImageView
         android:id="@+id/lupa"

@@ -19,11 +19,11 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/buttonHome"
+        app:layout_constraintTop_toBottomOf="@+id/btn_home2"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/buttonHome"
+        android:id="@+id/btn_home2"
         android:layout_width="123dp"
         android:layout_height="54dp"
         android:layout_marginStart="2dp"
@@ -162,7 +162,7 @@
         tools:layout_editor_absoluteY="335dp" />
 
     <Button
-        android:id="@id/button2"
+        android:id="@id/btn_matriculese1"
         android:layout_width="198dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/red"
@@ -171,7 +171,7 @@
         tools:layout_editor_absoluteY="232dp" />
 
     <Button
-        android:id="@id/button2"
+        android:id="@id/btn_matriculese1"
         android:layout_width="198dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/red"
@@ -243,7 +243,7 @@
         tools:layout_editor_absoluteY="633dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_matriculese1"
         android:layout_width="198dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/red"

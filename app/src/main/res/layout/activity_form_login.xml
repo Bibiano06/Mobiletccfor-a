@@ -58,6 +58,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
         style="@style/Button"
         android:text="@string/Login"
         app:layout_constraintEnd_toEndOf="parent"

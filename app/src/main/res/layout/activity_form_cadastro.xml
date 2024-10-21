@@ -81,6 +81,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cadastro"
             style="@style/Button"
             android:text="@string/Cadastrar"
             app:layout_constraintEnd_toEndOf="parent"
