@@ -137,6 +137,7 @@
         tools:layout_editor_absoluteY="166dp" />
 
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Direito a uma avaliação por mês"

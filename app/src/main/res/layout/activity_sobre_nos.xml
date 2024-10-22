@@ -39,16 +39,13 @@
         android:layout_width="97dp"
         android:layout_height="58dp"
         android:layout_marginEnd="47dp"
-        android:layout_marginBottom="119dp"
+        android:layout_marginBottom="116dp"
         android:backgroundTint="@color/trasparente"
         android:text="Home"
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toStartOf="@+id/leao"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/leao"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/acad"
@@ -66,17 +63,13 @@
         android:id="@+id/textView9"
         android:layout_width="236dp"
         android:layout_height="145dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginTop="37dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="58dp"
         android:text="Na Energia e Força, nossa missão é transformar vidas por meio da atividade física e do bem-estar. Oferecemos um ambiente inclusivo e motivador, com treinos personalizados e uma abordagem holística para saúde e qualidade de vida. Nosso objetivo é ajudar cada cliente a superar seus limites, adotando hábitos saudáveis que promovam um corpo e mente equilibrados."
         android:textColor="@color/white"
         android:textSize="12dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toStartOf="@+id/acad"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <ImageView
