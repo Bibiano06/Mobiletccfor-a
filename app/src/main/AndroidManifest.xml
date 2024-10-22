@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ProjetoFirebase"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <activity android:name=".TesteConexaoBD"
+        <activity android:name=".Modalidades"
                   android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +27,7 @@
             android:name=".SobreNos"
             android:exported="false" />
         <activity
-            android:name=".Planos"
+            android:name=".TesteConexaoBD"
             android:exported="false" />
         <activity
             android:name=".Faleconosco"
@@ -39,11 +39,13 @@
             android:name=".FormHome"
             android:exported="false" />
         <activity
-            android:name=".Modalidades"
+            android:name=".Planos"
             android:exported="true" />
         <activity
             android:name=".FormCadastro"
             android:exported="true" />
-    </application>
+        <activity android:name=".perfil"
+                  android:exported="false"/>
 
+    </application>
 </manifest>

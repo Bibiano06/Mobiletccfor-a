@@ -159,8 +159,9 @@
         android:layout_width="128dp"
         android:layout_height="59dp"
         android:backgroundTint="@color/trasparente"
-        android:textSize="15dp"
+        android:onClick="abrindo_tela"
         android:text="Home"
+        android:textSize="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
